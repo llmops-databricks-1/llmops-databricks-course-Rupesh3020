@@ -1,6 +1,9 @@
 # OS X
 .DS_Store
 
+# UV config (contains credentials)
+uv.toml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
