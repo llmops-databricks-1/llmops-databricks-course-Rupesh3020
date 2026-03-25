@@ -8,6 +8,12 @@ variables:
   git_sha:
     description: "Git SHA of the deployed commit"
     default: "local"
+  schedule_pause_status:
+    description: schedule pause status
+    default: PAUSED
+  branch:
+    description: branch
+    default: main
 
 artifacts:
   default:
